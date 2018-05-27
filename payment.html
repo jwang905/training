@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="PhotoOnWall iOS APP">
+    <meta name="keywords" content="iOS, Photo Print, Frame your photos, Photography">
+    <meta name="author" content="PhotoOnWall">
+    <title>PhotoOnWall Home | Welcome</title>
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+    <script src="/__/firebase/4.0.0/firebase-app.js"></script>
+    <script src="/__/firebase/4.0.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase-firestore.js"></script>
+    <script src="/__/firebase/init.js"></script>
+    <link rel="stylesheet" href="./my.css">
+</head>
+<body>
+<section class="pay-section">
+<h1 style="text-align: center;">Payment</h1><a class="link" href="javascript: listTodayPayments()">Today Payments</a>
+<input id="customer-id" class="text-field" type="text" placeholder="customer-id"><br>
+<input id="amount" class="text-field" type="text" placeholder="amount"><br>
+<select id="currency" class="currency-select">
+    <option value="cad">CAD</option>
+    <option value="usd">USD</option>
+</select><br>
+<button class="button-style" type="button" onclick="pay()">Pay Now</button><br>
+
+
+</section>
+<div id="payment-list">
+    <div style="font-weight: bold;" class="list-container">
+        <label class="list-customer-id">Customer Id</label>
+        <label class="list-payment">Payemnt</label>
+        <label class="list-date">Date</label>
+    </div>
+</div>
+<script src="my.js"></script>
+</body>
+</html>

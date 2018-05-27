@@ -1,0 +1,84 @@
+.my-style {
+    font-size: 20px;
+    /* */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+img {
+    height: 100px;
+}
+
+#myid {
+    background: green;
+}
+
+/* payment.html */
+.pay-section {
+    
+    width: 500px;
+    padding: 20px;
+    background-color: #eeeeee;
+    box-shadow: 0px 2px 2px #333333; 
+    border-radius: 3px;
+    font-size: 20px;
+    margin: auto auto;
+}
+.text-field {
+    font-size: 20px;
+    width: 100%;
+    margin: 5px;
+}
+.currency-select {
+    width: 50%;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.button-style {
+    width: 50%;
+    font-size: 22px;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+.link {
+    color: rgba(0,0,0,0.85);
+    text-decoration:none;
+    text-transform: capitalize;
+    font-size:16px;
+    float: right;
+    margin-bottom: 20px;
+}
+  
+.link:hover{
+color:#F44336;
+font-weight:bold;
+}
+
+#payment-list {
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    width: 50%;
+    display: none;
+}
+.list-container {
+    width: 700px;
+    display: flex;
+    padding: 5px;
+}
+
+.list-customer-id {
+    flex: 1;
+}
+.list-payment {
+    flex: 2;
+}
+
+.list-date {
+    flex: 2;
+}
